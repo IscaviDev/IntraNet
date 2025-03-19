@@ -14,10 +14,10 @@ from googleapiclient.errors import HttpError
 from io import BytesIO  # Usamos BytesIO en lugar de StringIO
 
 SCOPES = ["https://www.googleapis.com/auth/drive"]
-creds = Credentials.from_service_account_file(
-    "./storage/credentials.json", scopes=SCOPES)
 # creds = Credentials.from_service_account_file(
-#     "credentials.json", scopes=SCOPES)
+#     "./storage/credentials.json", scopes=SCOPES)
+creds = Credentials.from_service_account_file(
+    "credentials.json", scopes=SCOPES)
 drive_service = build("drive", "v3", credentials=creds)
 
 
@@ -366,6 +366,7 @@ async def main(page: ft.Page):
     def admin_page(e=None):
         page.clean()
         page.add(stack)
+        page.scroll = None
         stack.controls.clear()
         background_image()
         # background_opacity()
@@ -505,6 +506,7 @@ async def main(page: ft.Page):
     def data_base_info(db_table, file_id, nombre_archivo):
         page.clean()
         page.add(stack)
+        page.scroll = ft.ScrollMode.ALWAYS
         stack.controls.clear()
         background_image()
         # background_opacity()
@@ -516,7 +518,7 @@ async def main(page: ft.Page):
             rows=[ft.DataRow(cells=[ft.DataCell(ft.Text(str(value)))
                                     for value in row]) for row in table_df.values]
         )], scroll=ft.ScrollMode.ADAPTIVE)
-        stack.controls.append(ft.Container(content=ft.Column(controls=[tabla, ft.ElevatedButton(
+        stack.controls.append(ft.Container(content=ft.Column(controls=[ft.Container(height=70), tabla, ft.ElevatedButton(
             "Torna a l'inici",
             on_click=admin_page,
             style=ft.ButtonStyle(
@@ -528,6 +530,7 @@ async def main(page: ft.Page):
     def update_data_base_info(db_table, file_id, nombre_archivo):
         page.clean()
         page.add(stack)
+        page.scroll = ft.ScrollMode.ALWAYS
         stack.controls.clear()
         background_image()
         # background_opacity()
@@ -562,7 +565,7 @@ async def main(page: ft.Page):
         boton_agregar = ft.ElevatedButton(
             "Agregar", on_click=lambda e, fid=file_id, fn=nombre_archivo: agregar_registro(fid, fn))
         stack.controls.append(ft.Container(
-            content=ft.Column(controls=[*inputs, boton_agregar, ft.ElevatedButton(
+            content=ft.Column(controls=[ft.Container(height=70), *inputs, boton_agregar, ft.ElevatedButton(
                 "Torna a l'inici",
                 on_click=admin_page,
                 style=ft.ButtonStyle(
@@ -788,79 +791,10 @@ async def main(page: ft.Page):
             info_name = "Informació de l'alumne"
         elif current_session["account"][0]["user-license"] == "tutor":
             info_name = "Informació de la classe"
-        stack.controls.append(ft.Container(content=ft.Column(controls=[
-            ft.ResponsiveRow(
-                controls=[
-                    ft.Text(
-                        "Configuració del compte d'usuari",
-                        size=28,
-                        weight="bold",
-                        color=ft.colors.BLUE_GREY_800,
-                        text_align=ft.TextAlign.CENTER,
-                    )
-                ],
-                alignment=ft.MainAxisAlignment.CENTER,
-            ),
-            ft.Container(height=15),
-            ft.ResponsiveRow(
-                controls=[
-                    ft.Column(
-                        controls=[
-                            ft.Text(
-                                "Opcions del Compte",
-                                size=20,
-                                color=ft.colors.INDIGO_700,
-                                weight="w600",
-                                text_align=ft.TextAlign.CENTER,
-                            ),
-                        ],
-                        horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                    )
-                ],
-                alignment=ft.MainAxisAlignment.CENTER,
-            ),
-            ft.ResponsiveRow(
-                controls=[
-                    ft.Column(
-                        controls=[
-                            ft.OutlinedButton(
-                                "Informació del compte",
-                                on_click=settings_user_page,
-                                style=ft.ButtonStyle(
-                                    color=ft.colors.INDIGO_600,
-                                    padding=ft.padding.symmetric(
-                                        horizontal=20, vertical=10),
-                                    elevation=1,
-                                ),
-                            ),
-                        ],
-                        horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                    )
-                ],
-                alignment=ft.MainAxisAlignment.CENTER,
-            ),
-            ft.ResponsiveRow(
-                controls=[
-                    ft.Column(
-                        controls=[
-                            ft.OutlinedButton(
-                                info_name,
-                                on_click=settings_sub_account_page,
-                                style=ft.ButtonStyle(
-                                    color=ft.colors.INDIGO_600,
-                                    padding=ft.padding.symmetric(
-                                        horizontal=20, vertical=10),
-                                    elevation=1,
-                                ),
-                            ),
-                        ],
-                        horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                    )
-                ],
-                alignment=ft.MainAxisAlignment.CENTER,
-            ),
-            ft.Container(height=10),
-            ft.ResponsiveRow(
+
+        if current_session["account"][0]["user-license"] == "admin":
+            stack.controls.append(ft.Container(content=ft.Column(controls=[ft.Container(height=10),
+                                                                           ft.ResponsiveRow(
                 controls=[
                     ft.Column(
                         controls=[
@@ -877,7 +811,7 @@ async def main(page: ft.Page):
                 ],
                 alignment=ft.MainAxisAlignment.CENTER,
             ),
-            ft.ResponsiveRow(
+                ft.ResponsiveRow(
                 controls=[
                     ft.Column(
                         controls=[
@@ -900,15 +834,15 @@ async def main(page: ft.Page):
                 ],
                 alignment=ft.MainAxisAlignment.CENTER,
             ),
-            ft.Container(height=30),
-            ft.ResponsiveRow(
+                ft.Container(height=30),
+                ft.ResponsiveRow(
                 controls=[
                     ft.Column(
                         controls=[
                             ft.ElevatedButton(
                                 text="Enrere",
                                 icon=ft.icons.ARROW_BACK,
-                                on_click=home_page,
+                                on_click=admin_page,
                                 style=ft.ButtonStyle(
                                     bgcolor=ft.colors.TEAL_700,
                                     color=ft.colors.WHITE,
@@ -921,11 +855,147 @@ async def main(page: ft.Page):
                     )
                 ],
                 alignment=ft.MainAxisAlignment.CENTER,
-            ),
-        ],
-            alignment=ft.MainAxisAlignment.CENTER,
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER)
-        ))
+            ),], alignment=ft.MainAxisAlignment.CENTER,
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER)))
+        else:
+            stack.controls.append(ft.Container(content=ft.Column(controls=[
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Text(
+                            "Configuració del compte d'usuari",
+                            size=28,
+                            weight="bold",
+                            color=ft.colors.BLUE_GREY_800,
+                            text_align=ft.TextAlign.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+                ft.Container(height=15),
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Column(
+                            controls=[
+                                ft.Text(
+                                    "Opcions del Compte",
+                                    size=20,
+                                    color=ft.colors.INDIGO_700,
+                                    weight="w600",
+                                    text_align=ft.TextAlign.CENTER,
+                                ),
+                            ],
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Column(
+                            controls=[
+                                ft.OutlinedButton(
+                                    "Informació del compte",
+                                    on_click=settings_user_page,
+                                    style=ft.ButtonStyle(
+                                        color=ft.colors.INDIGO_600,
+                                        padding=ft.padding.symmetric(
+                                            horizontal=20, vertical=10),
+                                        elevation=1,
+                                    ),
+                                ),
+                            ],
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Column(
+                            controls=[
+                                ft.OutlinedButton(
+                                    info_name,
+                                    on_click=settings_sub_account_page,
+                                    style=ft.ButtonStyle(
+                                        color=ft.colors.INDIGO_600,
+                                        padding=ft.padding.symmetric(
+                                            horizontal=20, vertical=10),
+                                        elevation=1,
+                                    ),
+                                ),
+                            ],
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+                ft.Container(height=10),
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Column(
+                            controls=[
+                                ft.Text(
+                                    "Navegació",
+                                    size=20,
+                                    color=ft.colors.GREEN_700,
+                                    weight="w600",
+                                    text_align=ft.TextAlign.CENTER,
+                                ),
+                            ],
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Column(
+                            controls=[
+                                ft.OutlinedButton(
+                                    text="Tanca sessió",
+                                    on_click=login_page,
+                                    style=ft.ButtonStyle(
+                                        color=ft.colors.WHITE,
+                                        padding=ft.padding.symmetric(
+                                            horizontal=18, vertical=10),
+                                        bgcolor={
+                                            ft.ControlState.DEFAULT: ft.colors.RED_600,
+                                            ft.ControlState.HOVERED: ft.colors.RED_800,
+                                        },
+                                    ),
+                                ),
+                            ],
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+                ft.Container(height=30),
+                ft.ResponsiveRow(
+                    controls=[
+                        ft.Column(
+                            controls=[
+                                ft.ElevatedButton(
+                                    text="Enrere",
+                                    icon=ft.icons.ARROW_BACK,
+                                    on_click=home_page,
+                                    style=ft.ButtonStyle(
+                                        bgcolor=ft.colors.TEAL_700,
+                                        color=ft.colors.WHITE,
+                                        padding=ft.padding.symmetric(
+                                            horizontal=16, vertical=8),
+                                    ),
+                                ),
+                            ],
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                        )
+                    ],
+                    alignment=ft.MainAxisAlignment.CENTER,
+                ),
+            ],
+                alignment=ft.MainAxisAlignment.CENTER,
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER)
+            ))
         page.update()
 
     def settings_user_page(e=None):  # Cambiado
@@ -1098,8 +1168,12 @@ async def main(page: ft.Page):
         page.update()
 
     def settings_sub_account_page(e=None):  # Cambiado
+        page.clean()
+        page.add(stack)
+        page.scroll = None
         stack.controls.clear()
         background_image()
+        page
         # background_opacity()
         create_app_bar()
         if current_session["account"][0]["user-license"] == "parent":
@@ -1296,6 +1370,9 @@ async def main(page: ft.Page):
         page.update()
 
     def view_educational_staff(e=None):  # Cambiado
+        page.clean()
+        page.add(stack)
+        page.scroll = ft.ScrollMode.ALWAYS
         stack.controls.clear()
         background_image()
         # background_opacity()
@@ -1313,7 +1390,7 @@ async def main(page: ft.Page):
         for i in range(len(current_session["sub-account"])):
             alumns_table_info.append(create_table_row(str(current_session["sub-account"][i]["alumn_id"]), current_session["sub-account"]
                                      [i]["name"], current_session["sub-account"][i]["first-surname"], current_session["sub-account"][i]["second-surname"]))
-        table = ft.ResponsiveRow(
+        table = ft.Row(
             controls=[
                 ft.DataTable(
                     columns=[
@@ -1325,7 +1402,7 @@ async def main(page: ft.Page):
                     rows=alumns_table_info,
                 )],
             alignment=ft.MainAxisAlignment.CENTER,
-            # scroll=ft.ScrollMode.ALWAYS
+            scroll=ft.ScrollMode.ADAPTIVE
         )
         back_button = ft.ElevatedButton(
             text="Enrere",

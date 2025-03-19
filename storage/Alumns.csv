@@ -1,0 +1,393 @@
+alumn_id,name,first-surname,second-surname,user-license,report-first-term,report-second-term,report-third-term,final-report,class_id
+22002504440,Dahab,Ba Aqqa,,alumn,[],[],[],[],EINFLOE 2C101
+22089794494,Elian Oliver,Bruun,,alumn,[],[],[],[],EINFLOE 2C101
+20533542161,Dafne,Castro,Vázquez,alumn,[],[],[],[],EINFLOE 2C101
+22001584449,Sofía,Cretella,Barrios,alumn,[],[],[],[],EINFLOE 2C101
+21494813915,Izan,Ferrero,López,alumn,[],[],[],[],EINFLOE 2C101
+21722923106,Ainhoa,Jofre,Cañete,alumn,[],[],[],[],EINFLOE 2C101
+19453962395,Briana Sofía,Loor,Medina,alumn,[],[],[],[],EINFLOE 2C101
+21498363920,Amadeo Germán,Moran,Quezada,alumn,[],[],[],[],EINFLOE 2C101
+20278862932,Carmela,París,Marín,alumn,[],[],[],[],EINFLOE 2C101
+20278882934,Esteban,París,Marín,alumn,[],[],[],[],EINFLOE 2C101
+21906654329,Ima,Perez,Murias,alumn,[],[],[],[],EINFLOE 2C101
+21999084440,Madison del Carmen,Royero,Rodríguez,alumn,[],[],[],[],EINFLOE 2C101
+22446774713,Facundo,Salinas,Merino,alumn,[],[],[],[],EINFLOE 2C101
+20463032067,Unai,Seres,Vicente,alumn,[],[],[],[],EINFLOE 2C101
+21467413978,Adam,Sobrino,Alili,alumn,[],[],[],[],EINFLOE 2C101
+21505723961,Kai,Sort,Martinez,alumn,[],[],[],[],EINFLOE 2C101
+20351092053,Ariadna,Sugrañes,Conde,alumn,[],[],[],[],EINFLOE 2C101
+22001274442,Olaf,Winter,Medina,alumn,[],[],[],[],EINFLOE 2C101
+21612153072,Maggie,Bauzà,Garcia,alumn,[],[],[],[],EINFLOE 2C102
+21971444434,Mathias,Belz,,alumn,[],[],[],[],EINFLOE 2C102
+19453982391,Nikandr,Ciobanu,Cabral,alumn,[],[],[],[],EINFLOE 2C102
+22002914445,Sofía,Escofet,Bah,alumn,[],[],[],[],EINFLOE 2C102
+21241393733,Orlin,Holguin,Muirragui,alumn,[],[],[],[],EINFLOE 2C102
+22084124427,Philipp,Khramushin,,alumn,[],[],[],[],EINFLOE 2C102
+19453772390,Jordi,Legrand,Orteu,alumn,[],[],[],[],EINFLOE 2C102
+20349382059,Sophie Antonia,Mariani,Valvo,alumn,[],[],[],[],EINFLOE 2C102
+21641743005,Margarita,Medvedofsky,,alumn,[],[],[],[],EINFLOE 2C102
+21855044280,Mirco,Montilla,Penderia,alumn,[],[],[],[],EINFLOE 2C102
+20537152168,Carla,Nebot,Espinosa,alumn,[],[],[],[],EINFLOE 2C102
+22003614441,Tania Fernanda,Pallo,Huertas,alumn,[],[],[],[],EINFLOE 2C102
+20489122142,Jaretzi Ayana,Paredes,Retamazo,alumn,[],[],[],[],EINFLOE 2C102
+21999764443,Amelia,Rios,Betancor,alumn,[],[],[],[],EINFLOE 2C102
+20470922007,Alma,Salomó,Bertolin,alumn,[],[],[],[],EINFLOE 2C102
+20657833124,Maider Alaya,Sanchez,Gomez,alumn,[],[],[],[],EINFLOE 2C102
+22173434664,Andrei Can,Staicu,,alumn,[],[],[],[],EINFLOE 2C102
+18769351183,Gina,Verniol,Jordan,alumn,[],[],[],[],EINFLOE 2C102
+20805033333,Marc Minh,Aguilera,Dao,alumn,[],[],[],[],EINFLOE 2C201
+20809903336,Hendrich,Alvarez,Perez,alumn,[],[],[],[],EINFLOE 2C201
+22422664798,Santiago,Caggiano,,alumn,[],[],[],[],EINFLOE 2C201
+19802152410,Aurora,Chebanova,,alumn,[],[],[],[],EINFLOE 2C201
+20485772144,Alan,de Arriba,Alemany,alumn,[],[],[],[],EINFLOE 2C201
+18783751115,Naia,Farràs,Bachs,alumn,[],[],[],[],EINFLOE 2C201
+19221022286,Shanti,Gautam,Aryal,alumn,[],[],[],[],EINFLOE 2C201
+21292003710,Gabriela,Gutierrez,Niño,alumn,[],[],[],[],EINFLOE 2C201
+18779241196,Chloe,Lorente,Mañé,alumn,[],[],[],[],EINFLOE 2C201
+20811893334,Khadija,Mahmood,Akram,alumn,[],[],[],[],EINFLOE 2C201
+19454632394,Tiago Andrea,Maio,Gallet,alumn,[],[],[],[],EINFLOE 2C201
+19454832397,Aïna,Ménard,,alumn,[],[],[],[],EINFLOE 2C201
+20266962917,Dídac,Minguela,Villuendas,alumn,[],[],[],[],EINFLOE 2C201
+20802143336,Mishal Fatima,Nawaz,Rajput,alumn,[],[],[],[],EINFLOE 2C201
+19807012446,Nicol Ines,Nicatore,,alumn,[],[],[],[],EINFLOE 2C201
+19447602385,Erik,Palau,Cáceres,alumn,[],[],[],[],EINFLOE 2C201
+19447522388,Mark,Palau,Cáceres,alumn,[],[],[],[],EINFLOE 2C201
+19740612317,Erik,Piedra,Ivorra,alumn,[],[],[],[],EINFLOE 2C201
+20575632107,Sani Belén,Quiroga,Villalba,alumn,[],[],[],[],EINFLOE 2C201
+20819733337,Damian Hazael,Verdi,D Angelo,alumn,[],[],[],[],EINFLOE 2C201
+20810623336,Arwens Lisbeth,Alvarez,Perez,alumn,[],[],[],[],EINFLOE 2C202
+18774621187,Lucas,Blasco,Martinez,alumn,[],[],[],[],EINFLOE 2C202
+20044012716,Rashad Ayizé,Botero,Martínez,alumn,[],[],[],[],EINFLOE 2C202
+19422752335,Clara,Carbó,Verdaguer,alumn,[],[],[],[],EINFLOE 2C202
+19750112411,Valentina,Combeau,Mogollón,alumn,[],[],[],[],EINFLOE 2C202
+19428212349,Emily Dahlia,Correa,Chávez,alumn,[],[],[],[],EINFLOE 2C202
+19448872382,Oliver,Cuevas,Veselinova,alumn,[],[],[],[],EINFLOE 2C202
+19221062286,Samridhi,Gautam,Aryal,alumn,[],[],[],[],EINFLOE 2C202
+19775182451,Sofía,Lera,Bautista,alumn,[],[],[],[],EINFLOE 2C202
+19166132222,Liam Arturo,Moreira,Saquinaula,alumn,[],[],[],[],EINFLOE 2C202
+20489722164,Briana Abril,Orozco,Torrico,alumn,[],[],[],[],EINFLOE 2C202
+20076172701,Laia,Peralta,Iranzo,alumn,[],[],[],[],EINFLOE 2C202
+18797171125,Àngel,Pérez,Romero,alumn,[],[],[],[],EINFLOE 2C202
+20512612104,Sabina,Pla,Bernaldo,alumn,[],[],[],[],EINFLOE 2C202
+22308264684,Martina,Prato,Scarone,alumn,[],[],[],[],EINFLOE 2C202
+19679772383,Mateo Josef,Riebenbauer,Flores,alumn,[],[],[],[],EINFLOE 2C202
+20035332787,Chloé Ysabelle,Romero,Antonio,alumn,[],[],[],[],EINFLOE 2C202
+20021232761,Maksym,Turchyn,,alumn,[],[],[],[],EINFLOE 2C202
+19427782344,Luka,Urdaneta,Pérez,alumn,[],[],[],[],EINFLOE 2C202
+20819313330,Erik,Zambrana,Oliver,alumn,[],[],[],[],EINFLOE 2C202
+19338952231,Angela Maria,Bernal,Alvarenga,alumn,[],[],[],[],EINFLOE 2C301
+22081544497,Leon Maximus,Bruun,,alumn,[],[],[],[],EINFLOE 2C301
+18789541126,Felipe,Cuberli,Naveiro,alumn,[],[],[],[],EINFLOE 2C301
+19209372280,Mario,Diaz,Arrua,alumn,[],[],[],[],EINFLOE 2C301
+22606164941,Olivia,Forgiarini,Da Fonseca,alumn,[],[],[],[],EINFLOE 2C301
+19280312266,Eyad,Guerout,Hamdoud,alumn,[],[],[],[],EINFLOE 2C301
+19668372385,Ameer Muhammad,Khan,,alumn,[],[],[],[],EINFLOE 2C301
+19226032297,Adèle,Llumbiarres,Marinot,alumn,[],[],[],[],EINFLOE 2C301
+19678192380,Máximo,López,Quevedo,alumn,[],[],[],[],EINFLOE 2C301
+19578092342,Daniella Cataleya,Mendolaza,Yana,alumn,[],[],[],[],EINFLOE 2C301
+18797191128,Irene,Piqué,Escudero,alumn,[],[],[],[],EINFLOE 2C301
+19581622344,Jan,Ràfols,Jiménez,alumn,[],[],[],[],EINFLOE 2C301
+19612412355,Arnav,Sadhnani,Navlani,alumn,[],[],[],[],EINFLOE 2C301
+19221252288,Maria Paz,Tapia,Orbegoso,alumn,[],[],[],[],EINFLOE 2C301
+18883191103,Pau,Totusaus,Novoa,alumn,[],[],[],[],EINFLOE 2C301
+19340142232,Darío,Triguero,Martínez,alumn,[],[],[],[],EINFLOE 2C301
+19240492201,Triana Araceli,Yactayo,Velasquez,alumn,[],[],[],[],EINFLOE 2C301
+19248732214,Talin,Al Hamad,,alumn,[],[],[],[],EINFLOE 2C302
+18757981162,Nahara,Alcántara,Ogando,alumn,[],[],[],[],EINFLOE 2C302
+19627962354,Zain,Ali,Bibi,alumn,[],[],[],[],EINFLOE 2C302
+18799101133,Leonardo Gabriel,Arenas,Monteza,alumn,[],[],[],[],EINFLOE 2C302
+18799371138,Valèria,Armada,Herrero,alumn,[],[],[],[],EINFLOE 2C302
+18814021144,Lluc,Artigues,Rodríguez,alumn,[],[],[],[],EINFLOE 2C302
+19256962240,Roc,Cava,Gay,alumn,[],[],[],[],EINFLOE 2C302
+19355892244,Izan,Cervera,Blaya,alumn,[],[],[],[],EINFLOE 2C302
+18891181218,Albertina,Curti,,alumn,[],[],[],[],EINFLOE 2C302
+18783761111,Mateo,Fortunati,,alumn,[],[],[],[],EINFLOE 2C302
+18784121111,David,Graziani,,alumn,[],[],[],[],EINFLOE 2C302
+19244712218,Damián,Martinez,Morales,alumn,[],[],[],[],EINFLOE 2C302
+19439992370,Aram,Navarro,Ciscar,alumn,[],[],[],[],EINFLOE 2C302
+19408472329,Jannick Daian,Paredes,Retamozo,alumn,[],[],[],[],EINFLOE 2C302
+19384442289,Aina,Santaulària,Siscart,alumn,[],[],[],[],EINFLOE 2C302
+18801061138,Júlia,Serés,Vicente,alumn,[],[],[],[],EINFLOE 2C302
+19621112353,Wanghao,Weng,,alumn,[],[],[],[],EINFLOE 2C302
+18471951429,Arlet,Aguado,Gimenez,alumn,[],[],[],[],EPRILOEM101
+18374511330,Ranjisha,Basel,Kunwar,alumn,[],[],[],[],EPRILOEM101
+18166791373,Valentina,Blasco,Martinez,alumn,[],[],[],[],EPRILOEM101
+22422624794,Amanda,Caggiano,,alumn,[],[],[],[],EPRILOEM101
+18166511371,Javier Francisco,Ciarcia,Zambrano,alumn,[],[],[],[],EPRILOEM101
+18158891372,Erik,Coego,Gibert,alumn,[],[],[],[],EPRILOEM101
+17995201355,Aina,Gines,León,alumn,[],[],[],[],EPRILOEM101
+18267711302,Greta,Ginés,Guarro,alumn,[],[],[],[],EPRILOEM101
+18073711360,Santiago Eduardo,Gómez,Pacheco,alumn,[],[],[],[],EPRILOEM101
+18185531384,Sofia,Kavtaradze,Elerdashvili,alumn,[],[],[],[],EPRILOEM101
+18315471328,Diamond-David,Martínez,Medina,alumn,[],[],[],[],EPRILOEM101
+18332631327,Olivia,Meckler,,alumn,[],[],[],[],EPRILOEM101
+17971041359,Leire,Mena,Palencia,alumn,[],[],[],[],EPRILOEM101
+18024391362,Arlet,Molina,Camats,alumn,[],[],[],[],EPRILOEM101
+18184551389,Ona,Molina,Perera,alumn,[],[],[],[],EPRILOEM101
+18412451466,Alessandro,Morales,Echever,alumn,[],[],[],[],EPRILOEM101
+18126461373,Anis,Outajer,,alumn,[],[],[],[],EPRILOEM101
+18153481370,Dafne,Romans,Pascual,alumn,[],[],[],[],EPRILOEM101
+18285001318,Lorenzo,Sanabria,Ramos,alumn,[],[],[],[],EPRILOEM101
+17987511359,Claudia,Torrecillas,Aparicio,alumn,[],[],[],[],EPRILOEM101
+18351141330,Noa,Vidal,Villarraga,alumn,[],[],[],[],EPRILOEM101
+22000874440,Sigurd,Winter,Medina,alumn,[],[],[],[],EPRILOEM101
+17945341352,Jia Hao,Ye,,alumn,[],[],[],[],EPRILOEM101
+17955831358,Gorka,Almeida,Rago,alumn,[],[],[],[],EPRILOEM102
+21235163731,Jeremy Osiel,Ayala,Cañas,alumn,[],[],[],[],EPRILOEM102
+18472581425,Alexander Gabriel,Bisarra,,alumn,[],[],[],[],EPRILOEM102
+18159611372,Diana,Coego,Gibert,alumn,[],[],[],[],EPRILOEM102
+18275611301,Arlet,Deportós,Pascual,alumn,[],[],[],[],EPRILOEM102
+17856021357,Aixa,Escofet,Bah,alumn,[],[],[],[],EPRILOEM102
+18043911367,Lucia,Fernandez,Farell,alumn,[],[],[],[],EPRILOEM102
+17965091359,Carla,Figuera,Cañas,alumn,[],[],[],[],EPRILOEM102
+18288961311,Iker Bastian,García,Fuentes,alumn,[],[],[],[],EPRILOEM102
+18637661961,Ximena,García,,alumn,[],[],[],[],EPRILOEM102
+18473681431,Izan,Martínez,González,alumn,[],[],[],[],EPRILOEM102
+18292171319,Lea,Pontesilli,,alumn,[],[],[],[],EPRILOEM102
+18031481362,Mar,Regué,Palomo,alumn,[],[],[],[],EPRILOEM102
+17897041353,Gerard,Sarroca,Duch,alumn,[],[],[],[],EPRILOEM102
+18331131329,Marcel,Serrano,Pena,alumn,[],[],[],[],EPRILOEM102
+17889241357,María,Soler,Molina,alumn,[],[],[],[],EPRILOEM102
+18312831329,Qionia,Toroshelidze,,alumn,[],[],[],[],EPRILOEM102
+17971771350,Ainara,Toroya,Soliz,alumn,[],[],[],[],EPRILOEM102
+17986501357,Marc,Torrecillas,Aparicio,alumn,[],[],[],[],EPRILOEM102
+18385521343,Gareth Isaac,Urdaneta,Pérez,alumn,[],[],[],[],EPRILOEM102
+18137301377,Marc,Vela,Palomera,alumn,[],[],[],[],EPRILOEM102
+17894201353,Alexandra,Vincendeau,Rojo,alumn,[],[],[],[],EPRILOEM102
+22001144441,Ivar,Winter,Medina,alumn,[],[],[],[],EPRILOEM102
+18055201362,Marco,Zubiaur,Diaz-Asensio,alumn,[],[],[],[],EPRILOEM102
+17281850503,Tanisha,Ahmed,,alumn,[],[],[],[],EPRILOEM201
+18475701432,Victoria Alejandra,Andrade,Avila,alumn,[],[],[],[],EPRILOEM201
+17222610597,Amira,Ba Aqqa,Jabbari,alumn,[],[],[],[],EPRILOEM201
+17164090581,Sergi,Ballester,Rosado,alumn,[],[],[],[],EPRILOEM201
+17078990556,Sofía,Beltrán,Benet,alumn,[],[],[],[],EPRILOEM201
+17317140508,Anthony Alexander,Coria,Molina,alumn,[],[],[],[],EPRILOEM201
+17222840592,Dayron Rafael,Cruz,Liste,alumn,[],[],[],[],EPRILOEM201
+17177200581,Max,Farràs,Bachs,alumn,[],[],[],[],EPRILOEM201
+22605834940,Bento,Forgiarini,Da Fonseca,alumn,[],[],[],[],EPRILOEM201
+17165120582,Leo,Garcia,Yudego,alumn,[],[],[],[],EPRILOEM201
+17313590507,Eudald,Gil,Garcia,alumn,[],[],[],[],EPRILOEM201
+17383380516,Jabran,Mahmood,Akram,alumn,[],[],[],[],EPRILOEM201
+17165860582,Biel,Nebot,Espinosa,alumn,[],[],[],[],EPRILOEM201
+17084440556,Mateo,Patrón,Gimeno,alumn,[],[],[],[],EPRILOEM201
+17399740516,Maria Fernanda,Rivas,Moreira,alumn,[],[],[],[],EPRILOEM201
+17088140558,Marcel,Salomó,Bertolin,alumn,[],[],[],[],EPRILOEM201
+22173424666,Elena,Staicu,,alumn,[],[],[],[],EPRILOEM201
+17222410598,Lina,Tahiri,Khantouch,alumn,[],[],[],[],EPRILOEM201
+17179920584,Camila,Vasquez,Trigoso,alumn,[],[],[],[],EPRILOEM201
+17167970588,Yameen,Al Hamad,,alumn,[],[],[],[],EPRILOEM202
+17075220559,Ainara,Alonso,Navarro,alumn,[],[],[],[],EPRILOEM202
+17273990502,Fabricio,Balceras,Jaldin,alumn,[],[],[],[],EPRILOEM202
+17220680595,Adara Estefania,Blandón,Medina,alumn,[],[],[],[],EPRILOEM202
+17082760554,Lucas,Budinich,Figueroa,alumn,[],[],[],[],EPRILOEM202
+17088940555,Jan,Caldeiro,Martín,alumn,[],[],[],[],EPRILOEM202
+17224300597,Leon,Chebanov,Danylenko,alumn,[],[],[],[],EPRILOEM202
+17220970591,Samuel,Garcia,González,alumn,[],[],[],[],EPRILOEM202
+18674661990,Ranra,Gul,,alumn,[],[],[],[],EPRILOEM202
+17013240543,Eloi-Valentín,Marín,Caballero,alumn,[],[],[],[],EPRILOEM202
+17722520812,Mehejabin,Mehejabin,,alumn,[],[],[],[],EPRILOEM202
+17021890547,Dafne Sofia,Nicatore,,alumn,[],[],[],[],EPRILOEM202
+17225100597,Zayn Jaren,Paz,Mascariñas,alumn,[],[],[],[],EPRILOEM202
+17085390557,África,Robas,Mallón,alumn,[],[],[],[],EPRILOEM202
+17224250593,Fary Abigail,Sanchez,Gomez,alumn,[],[],[],[],EPRILOEM202
+17172710586,Aitana,Seguí,Kirilenko,alumn,[],[],[],[],EPRILOEM202
+17174570582,Adrian,Valls,Valera,alumn,[],[],[],[],EPRILOEM202
+17171990583,Unax,Vitoria,Jorrïn,alumn,[],[],[],[],EPRILOEM202
+16063689437,Valentin Ventsislavov,Angelov,,alumn,[],[],[],[],EPRILOEM301
+16388139499,Haru,Caballé,Redó,alumn,[],[],[],[],EPRILOEM301
+16420529404,Martí,Cassola,Dolz,alumn,[],[],[],[],EPRILOEM301
+15899919418,Camila,Chacón,García,alumn,[],[],[],[],EPRILOEM301
+16357899491,Dylan,Combeau,Mogollón,alumn,[],[],[],[],EPRILOEM301
+16424349406,Èlia,González,González,alumn,[],[],[],[],EPRILOEM301
+16210839454,Mar,Martínez,Díaz,alumn,[],[],[],[],EPRILOEM301
+16429049402,Christian David,Martínez,Medina,alumn,[],[],[],[],EPRILOEM301
+16195629456,Priscil·la,Monclús,Mendoza,alumn,[],[],[],[],EPRILOEM301
+16194349458,Fahad,Nawaz,Rajput,alumn,[],[],[],[],EPRILOEM301
+16402989405,Carlos Jadiel,Paredes,García,alumn,[],[],[],[],EPRILOEM301
+16061839434,Enzo,Queraltó,Pichardo,alumn,[],[],[],[],EPRILOEM301
+15901349412,Jhon Erik,Realpe,Lenis,alumn,[],[],[],[],EPRILOEM301
+16053439430,Gina,Sarroca,Duch,alumn,[],[],[],[],EPRILOEM301
+16422859405,Aritz,Sugrañes,Conde,alumn,[],[],[],[],EPRILOEM301
+16431729409,Sofía Milagros,Tapia,Orbegoso,alumn,[],[],[],[],EPRILOEM301
+15871309392,Liam,Tor,Vidal,alumn,[],[],[],[],EPRILOEM301
+15979249420,Anastasiia,Turchyn,,alumn,[],[],[],[],EPRILOEM301
+21632673095,Julian Francisco,Aguilera,Serrano,alumn,[],[],[],[],EPRILOEM302
+16074259432,Ismar,Ali,Bibi,alumn,[],[],[],[],EPRILOEM302
+16426199409,Maisha,Bonacina,Tonetti,alumn,[],[],[],[],EPRILOEM302
+16834789099,Emanuel,García,González,alumn,[],[],[],[],EPRILOEM302
+16208739459,Martí,Juncá,Martínez,alumn,[],[],[],[],EPRILOEM302
+16131929446,Max,Lallana,Cobarsi,alumn,[],[],[],[],EPRILOEM302
+16419479409,Zabdiel,López,Jiménez,alumn,[],[],[],[],EPRILOEM302
+17180340580,Arthur,Meckler,,alumn,[],[],[],[],EPRILOEM302
+21234933735,Simon,Medvedofsky,,alumn,[],[],[],[],EPRILOEM302
+16143179441,Martí,Moliner,Vendrell,alumn,[],[],[],[],EPRILOEM302
+16376199498,Valerio,Pontesilli,,alumn,[],[],[],[],EPRILOEM302
+16387169494,Mia,Prenafeta,Barriga,alumn,[],[],[],[],EPRILOEM302
+16459169419,Aitor,Puente,Atienza,alumn,[],[],[],[],EPRILOEM302
+16444719409,Iverson Biel,Reyes,de Jesús,alumn,[],[],[],[],EPRILOEM302
+20318642988,Nahomy Abigail,Ruíz,Sánchez,alumn,[],[],[],[],EPRILOEM302
+15869939396,Abel,Viricochea,Montaño,alumn,[],[],[],[],EPRILOEM302
+15998959426,Shitong,Weng,,alumn,[],[],[],[],EPRILOEM302
+18463451499,Alessandro,Zoia,,alumn,[],[],[],[],EPRILOEM302
+16914320270,Evelyn Tatiana,Acosta,Barco,alumn,[],[],[],[],EPRILOEM401
+15079658403,Vicenç,Adrover,Anders,alumn,[],[],[],[],EPRILOEM401
+21509933964,Amaliia,Ahieieva,,alumn,[],[],[],[],EPRILOEM401
+14896658475,Adrián,Beltrán,Benet,alumn,[],[],[],[],EPRILOEM401
+16852659192,Sofía,Brito,Pedraza,alumn,[],[],[],[],EPRILOEM401
+15610838726,Malcolm,Butler,Flores,alumn,[],[],[],[],EPRILOEM401
+15338388458,Víctor,Cáceres,Segarra,alumn,[],[],[],[],EPRILOEM401
+20192132920,Laura Sofia,Cuetocue,Gongora,alumn,[],[],[],[],EPRILOEM401
+22507444753,Angel Josue,Elvir,Dominguez,alumn,[],[],[],[],EPRILOEM401
+15047648495,Alicia,Fortunati,,alumn,[],[],[],[],EPRILOEM401
+14881928474,Martina,Garriga,Palacios,alumn,[],[],[],[],EPRILOEM401
+15297088444,Meritxell,Ginés,León,alumn,[],[],[],[],EPRILOEM401
+15277858440,Noor,Gmira,Zhinina,alumn,[],[],[],[],EPRILOEM401
+14807198462,Héctor Eduardo,Guzmán,Concha,alumn,[],[],[],[],EPRILOEM401
+15014498498,Héctor Kyriakos,Méndez,Theodorakakos,alumn,[],[],[],[],EPRILOEM401
+15599358735,Matthew Valentino,Mendolaza,Yana,alumn,[],[],[],[],EPRILOEM401
+15141858436,Arnau,Minguela,Villuendas,alumn,[],[],[],[],EPRILOEM401
+16832809081,Hellen Hasmin,Navas,Garcia,alumn,[],[],[],[],EPRILOEM401
+15295038446,Alisson,Paredes,Garcia,alumn,[],[],[],[],EPRILOEM401
+15406568464,Milo,Rabuffetti,,alumn,[],[],[],[],EPRILOEM401
+15773318240,Kirill,Ratés,Chena,alumn,[],[],[],[],EPRILOEM401
+15007488493,Lluna,Regué,Palomo,alumn,[],[],[],[],EPRILOEM401
+15276588440,Thiago,Rodríguez,González,alumn,[],[],[],[],EPRILOEM401
+15668598942,Lile,Toroshelidze,,alumn,[],[],[],[],EPRILOEM401
+15017068495,Clàudia,Aguado,Giménez,alumn,[],[],[],[],EPRILOEM402
+15086468403,Emanuel,Alcántara,Ogando,alumn,[],[],[],[],EPRILOEM402
+18664671953,Stefany Daniela,Aleixo,Otaisa,alumn,[],[],[],[],EPRILOEM402
+14883958479,Albert,Álvarez,Colombí,alumn,[],[],[],[],EPRILOEM402
+18665311956,Aranza Valentina,Bosque,Marquez,alumn,[],[],[],[],EPRILOEM402
+14889808474,Adrià,Cabada,Villalón,alumn,[],[],[],[],EPRILOEM402
+14969198485,Nicole,de Filippo,Fornés,alumn,[],[],[],[],EPRILOEM402
+14960098488,Alan,Díaz,de Marchi,alumn,[],[],[],[],EPRILOEM402
+14885788471,Paula,Flores,Gallifa,alumn,[],[],[],[],EPRILOEM402
+15121978402,Ronald Antonio,Gómez,Arias,alumn,[],[],[],[],EPRILOEM402
+15030048498,Emma,Graziani,,alumn,[],[],[],[],EPRILOEM402
+15420158461,Ethan Luciano,Grijalva,Wong,alumn,[],[],[],[],EPRILOEM402
+15407038466,Maha,Ibrahimi,,alumn,[],[],[],[],EPRILOEM402
+15084008400,Eliel Alexander,Lagla,Vasco,alumn,[],[],[],[],EPRILOEM402
+14893838473,Montse,Lascorz,Cebollero,alumn,[],[],[],[],EPRILOEM402
+15005188496,Lucia,Llumbiarres,Marinot,alumn,[],[],[],[],EPRILOEM402
+14903408484,Gia,Lluva,Garcia,alumn,[],[],[],[],EPRILOEM402
+15060538405,Ander,Mena,Palencia,alumn,[],[],[],[],EPRILOEM402
+15351398458,Iker,Orozco,Torrico,alumn,[],[],[],[],EPRILOEM402
+15356488459,Pau Alexander,Ortega,Alvarado,alumn,[],[],[],[],EPRILOEM402
+14756758430,Zoe,Palacios,Orós,alumn,[],[],[],[],EPRILOEM402
+14888918471,Sergio,Tomás,Bonjoch,alumn,[],[],[],[],EPRILOEM402
+15322548454,Martí,Usón,Rovira,alumn,[],[],[],[],EPRILOEM402
+13957497318,Yassin,Al Hamad,,alumn,[],[],[],[],EPRILOEM501
+16919580218,Dilan Isaac,Arita,Osorio,alumn,[],[],[],[],EPRILOEM501
+14308727498,Laila Itzel,Avilés,Pazmiño,alumn,[],[],[],[],EPRILOEM501
+13943717318,Nil,Casanovas,Santiago,alumn,[],[],[],[],EPRILOEM501
+13944897319,Dione,Delugo,Vélez,alumn,[],[],[],[],EPRILOEM501
+13724197372,Ainhoa Leya,Fernández,Suárez,alumn,[],[],[],[],EPRILOEM501
+13710677379,Daniel León,Gomberoff,Casorzo,alumn,[],[],[],[],EPRILOEM501
+13847497399,Ismahane,Guerout,Hamdoud,alumn,[],[],[],[],EPRILOEM501
+14032017433,Àlex,Haro,Prats,alumn,[],[],[],[],EPRILOEM501
+14095677441,Nahia,Isart,Vidal,alumn,[],[],[],[],EPRILOEM501
+15986519429,Danna Gabriela,Jimenez,Cajamarca,alumn,[],[],[],[],EPRILOEM501
+14151727457,Illia,Knestiapin,,alumn,[],[],[],[],EPRILOEM501
+14105427448,Nabil,Mjahed,Didi,alumn,[],[],[],[],EPRILOEM501
+14209757467,Montahina,Mohammad,Sultana,alumn,[],[],[],[],EPRILOEM501
+14120637448,Noor Fatima,Nawaz,Rajput,alumn,[],[],[],[],EPRILOEM501
+13813887393,Marc,Nebot,Espinosa,alumn,[],[],[],[],EPRILOEM501
+13735327376,Daryan Neil,Ortiz,Mendolaza,alumn,[],[],[],[],EPRILOEM501
+18673741977,Samirah Antonella,Pineda,Ramos,alumn,[],[],[],[],EPRILOEM501
+13962517315,Paula,Queraltó,Pichardo,alumn,[],[],[],[],EPRILOEM501
+13972107315,Artiom,Seguí,Kirilenko,alumn,[],[],[],[],EPRILOEM501
+14119047446,Houd,Siffer,Chinek,alumn,[],[],[],[],EPRILOEM501
+14111867440,Iker,Torrecilla,Rodríguez,alumn,[],[],[],[],EPRILOEM501
+13730297373,Aitor,Almeida,Rago,alumn,[],[],[],[],EPRILOEM502
+14102507445,Alan Matias,Avelar,Chirino,alumn,[],[],[],[],EPRILOEM502
+13810747393,Alba,Aymerich,San Ambrosio,alumn,[],[],[],[],EPRILOEM502
+13973077314,Nil,Begué,Schlauss,alumn,[],[],[],[],EPRILOEM502
+14080937443,Ioanna,Bonacina,Tonetti,alumn,[],[],[],[],EPRILOEM502
+13941807317,Martí,Collado,Jiménez,alumn,[],[],[],[],EPRILOEM502
+13617787338,Sara,Corrales,Cardona,alumn,[],[],[],[],EPRILOEM502
+21906764323,Bastian Derek,Herrera,Borja,alumn,[],[],[],[],EPRILOEM502
+18624961824,Umma Carolina,Jáñez,Perrone,alumn,[],[],[],[],EPRILOEM502
+13942877318,Yaser,Khalaf,Sammour,alumn,[],[],[],[],EPRILOEM502
+14207937461,Kylie,Lera,Bautista,alumn,[],[],[],[],EPRILOEM502
+14098057448,Sara,López,Jiménez,alumn,[],[],[],[],EPRILOEM502
+13937417318,Esther-Arelí,Pérez,Guzmán,alumn,[],[],[],[],EPRILOEM502
+13827647392,Camila,Pesaque,Clavijo,alumn,[],[],[],[],EPRILOEM502
+14092927444,Lucas Hafeth,Ponce,Méndez,alumn,[],[],[],[],EPRILOEM502
+14507337716,Mathias-René,Rocha,Cuaquira,alumn,[],[],[],[],EPRILOEM502
+13836327399,Joao Pedro,Salomó,Pendiuk,alumn,[],[],[],[],EPRILOEM502
+14160817452,Eric,Sanmartín,Monge,alumn,[],[],[],[],EPRILOEM502
+14167857456,Arnau,Sarroca,Duch,alumn,[],[],[],[],EPRILOEM502
+14035457433,Pau,Tor,Vidal,alumn,[],[],[],[],EPRILOEM502
+15847579379,Junior Stephan,Torres,Martinez,alumn,[],[],[],[],EPRILOEM502
+13791537389,Nit,Vega,Doncel,alumn,[],[],[],[],EPRILOEM502
+12498506478,Ani Ventsislavova,Angelova,,alumn,[],[],[],[],EPRILOEM601
+12859926488,Alvaro,Carrión,Blandón,alumn,[],[],[],[],EPRILOEM601
+12634496478,Àlex,Casado,Castañer,alumn,[],[],[],[],EPRILOEM601
+12549656472,Jana,Chacón,Legaspi,alumn,[],[],[],[],EPRILOEM601
+12590326475,Ismail,Chougui,,alumn,[],[],[],[],EPRILOEM601
+12552046474,Keyla,Colmenares,de la Cruz,alumn,[],[],[],[],EPRILOEM601
+12778876472,Biel,Conesa,Boleda,alumn,[],[],[],[],EPRILOEM601
+12377396476,Alejandro,Domínguez,Alfaro,alumn,[],[],[],[],EPRILOEM601
+12346556478,Elena,Garriga,Palacios,alumn,[],[],[],[],EPRILOEM601
+12479766472,Melania Andrea,Jiménez,Villena,alumn,[],[],[],[],EPRILOEM601
+12935836488,Aitana,Manzano,Figueras,alumn,[],[],[],[],EPRILOEM601
+6322495008,Isabella Francesca,Martín,Mesa,alumn,[],[],[],[],EPRILOEM601
+13327096742,Anais Alba,Molina,Merelo,alumn,[],[],[],[],EPRILOEM601
+12485416473,Mohammad Saad,Nawaz,Rajput,alumn,[],[],[],[],EPRILOEM601
+12708276471,Maria,Peix,Pejenaute,alumn,[],[],[],[],EPRILOEM601
+12955946482,Jean Lucca,Peláez,Osorio,alumn,[],[],[],[],EPRILOEM601
+16885500141,Gabriela Alexandra,Quintero,Velásquez,alumn,[],[],[],[],EPRILOEM601
+12800786483,Marta,Ramírez,García,alumn,[],[],[],[],EPRILOEM601
+12360956476,Shanti,Rodrigo,Dieng,alumn,[],[],[],[],EPRILOEM601
+12879216485,Valentina,Romans,Pascual,alumn,[],[],[],[],EPRILOEM601
+13338836733,Salome,Solis,Machado,alumn,[],[],[],[],EPRILOEM601
+12605556473,Dylan Paul,Torrez,Pérez,alumn,[],[],[],[],EPRILOEM601
+13015986484,Dídac,Vallhonrat,Farràs,alumn,[],[],[],[],EPRILOEM601
+12597176471,Marc,Vilarrubla,Mendoza,alumn,[],[],[],[],EPRILOEM601
+16855729120,Carla Estibaliz,Cevallos,Tinillo,alumn,[],[],[],[],EPRILOEM602
+12519326479,Joana,Coloma,Cavallé,alumn,[],[],[],[],EPRILOEM602
+12905476487,Asier,González,Goenaga,alumn,[],[],[],[],EPRILOEM602
+12536726475,Adrián Gabriel,Guerra,Guevara,alumn,[],[],[],[],EPRILOEM602
+12557886474,Amir,Ibrahimi,,alumn,[],[],[],[],EPRILOEM602
+12458196473,Luka,Kavtaradze,Elerdashvili,alumn,[],[],[],[],EPRILOEM602
+12434456473,Gala,Lallana,Cobarsi,alumn,[],[],[],[],EPRILOEM602
+12592446476,Amanda Mercedes,Martínez,García,alumn,[],[],[],[],EPRILOEM602
+12964966484,Daysland,Martínez,Medina,alumn,[],[],[],[],EPRILOEM602
+12347126474,Jana,Molina,Perera,alumn,[],[],[],[],EPRILOEM602
+12707476477,Biel,Moliner,Vendrell,alumn,[],[],[],[],EPRILOEM602
+12495126479,Leo,Orozco,Torrico,alumn,[],[],[],[],EPRILOEM602
+12668766475,Martí,Pàmies,Luque,alumn,[],[],[],[],EPRILOEM602
+14614997028,Valeria Alejandra,Roa,de Carvalho,alumn,[],[],[],[],EPRILOEM602
+12431796471,Elna,Rovira,Mallat,alumn,[],[],[],[],EPRILOEM602
+12749866476,Gerard,Salgado,Suárez,alumn,[],[],[],[],EPRILOEM602
+19084972100,Martín André,Tantachuco,Alva,alumn,[],[],[],[],EPRILOEM602
+15774798273,Jordi,Tinoco,Apesteguia,alumn,[],[],[],[],EPRILOEM602
+15678878983,Mariam,Toroshelidze,,alumn,[],[],[],[],EPRILOEM602
+15645648973,Nataliia,Turchyn,,alumn,[],[],[],[],EPRILOEM602
+12445436470,Irene,Vallès,Cortés,alumn,[],[],[],[],EPRILOEM602
+12888886484,Alina,Viricochea,Montaño,alumn,[],[],[],[],EPRILOEM602
+12713156478,Jiahui,Ye,,alumn,[],[],[],[],EPRILOEM602
+12489576473,Junxuan,Zhuo,,alumn,[],[],[],[],EPRILOEM602
+12377776476,Isaac,Aaouidat,Aguilar,alumn,[],[],[],[],EPRILOEM603
+12367216470,Amina,Ali,Bibi,alumn,[],[],[],[],EPRILOEM603
+21375053844,Amaia,Barreira,Dobros,alumn,[],[],[],[],EPRILOEM603
+12644346476,Laia,Carbó,Garcia,alumn,[],[],[],[],EPRILOEM603
+12844976480,Mar,Carrero,Juárez,alumn,[],[],[],[],EPRILOEM603
+13320706635,Ivanna Valentina,Carrillo,Zambrano,alumn,[],[],[],[],EPRILOEM603
+12508616470,Berta,Coloma,Cavallé,alumn,[],[],[],[],EPRILOEM603
+16452599408,Carla Alexandra,Ferreyra,Pasache,alumn,[],[],[],[],EPRILOEM603
+12876066488,Roniel Antonio,Gómez,Arias,alumn,[],[],[],[],EPRILOEM603
+12770186476,Lluc,Gulezian,Baqué,alumn,[],[],[],[],EPRILOEM603
+17847631251,Emilia,Imperioso,,alumn,[],[],[],[],EPRILOEM603
+12419846478,Iqra,Mahmood,Akram,alumn,[],[],[],[],EPRILOEM603
+12372086477,Sara,Martínez,Egea,alumn,[],[],[],[],EPRILOEM603
+12455586477,Jheicop,Paredes,Garcia,alumn,[],[],[],[],EPRILOEM603
+12525556471,Inés,Peix,Pejenaute,alumn,[],[],[],[],EPRILOEM603
+12563006472,Mikael,Pesaque,Clavijo,alumn,[],[],[],[],EPRILOEM603
+14106917448,Matteo,Pontesilli,,alumn,[],[],[],[],EPRILOEM603
+12996386483,Aaryan,Rakesh,Parekh,alumn,[],[],[],[],EPRILOEM603
+12370206479,Omar,Rodrigo,Dieng,alumn,[],[],[],[],EPRILOEM603
+12779536471,Valentina Leyre,Sevillano,Sotomayor,alumn,[],[],[],[],EPRILOEM603
+12590056471,Guillem,Sintes,Boillos,alumn,[],[],[],[],EPRILOEM603
+12877606485,Adam,Touil,Jabli,alumn,[],[],[],[],EPRILOEM603
+12719396479,Xavier,Valls,Valera,alumn,[],[],[],[],EPRILOEM603
